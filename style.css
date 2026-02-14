@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+
 }
 
 .container {
@@ -8,6 +10,7 @@ body {
     border: 1px solid gray;
 }
 
+/* Navigation */
 nav {
     display: flex;
     justify-content: space-between;
@@ -25,4 +28,37 @@ nav {
     width: 34px;
     height: 34px;
     border-radius: 50%;
+}
+
+/* POST CONTENT */
+
+hr {
+    margin: 0;
+}
+
+/* user info */
+
+header {
+    width: 348px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: 13px;
+}
+
+.avatar-vangogh {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.user-place {
+    margin-top: 0;
+    font-size: 12px;
 }
