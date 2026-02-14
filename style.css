@@ -1,13 +1,14 @@
 body {
     margin: 0;
     font-family: "Source Sans 3", sans-serif;
-
+    background-color: #F5F5F5;
 }
 
 .container {
     width: 375px;
-    margin: 0 auto;
-    border: 1px solid gray;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 15px 0;
 }
 
 /* Navigation */
@@ -15,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 0 12px 15px 12px;
 }
 
 .logo {
@@ -61,4 +62,56 @@ header {
 .user-place {
     margin-top: 0;
     font-size: 12px;
+}
+
+/* post-image */
+
+.post-vangogh {
+    width: 375px;
+    height: 375px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.post-vangogh:active {
+    transform: scale(0.2);
+    opacity: 0.8;
+}
+
+/* body */
+
+.body-section {
+    width: 348px;
+    margin-left: 12px;
+}
+
+.icon-container {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.icon {
+    width: 26px;
+    cursor: pointer;
+    transition: 0.3s transform;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.likes {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.comments {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.comment-user-id {
+    font-weight: bold;
 }
